@@ -10,7 +10,7 @@ const Layout = props => {
       <Head>
         <meta charSet='utf-8' />
         <meta name='viewport' content='width=device-width' />
-        <title>Water fountain chat</title>
+        <title>Did you mean personal data?</title>
       </Head>
       <ThemeProvider theme={theme}>
         <Box>{props.children}</Box>
