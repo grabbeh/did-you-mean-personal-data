@@ -118,8 +118,8 @@ const theme = {
     div: {},
     p: {
       fontFamily: 'sansSerif',
-      fontSize: 5,
-      color: 'black'
+      fontSize: 4,
+      color: 'dark-gray'
     },
     h1: {
       ...Heading,

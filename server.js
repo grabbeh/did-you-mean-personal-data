@@ -47,8 +47,11 @@ const app = new App({
 })
 
 nextApp.prepare().then(() => {
-  app.message(/^(PII|Pii|pii).*/, async ({ message, say }) => {
-    await say(`Hi, did you mean personal data?`)
+  app.message(/^(PII|Pii|pii).*/, async ({ context, say }) => {
+    const term = context.matches[0]
+    await say(
+      `It looks like you used the term '${term}', did you mean personal data?`
+    )
   })
 
   app.command('/personaldatabot', async ({ command, ack, say }) => {
