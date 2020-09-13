@@ -8,7 +8,7 @@ const Header = () => (
       <Text
         sx={{ fontFamily: 'sansSerif', cursor: 'pointer', fontWeight: 'bold' }}
       >
-        🏠 DID YOU MEAN PERSONAL DATA
+        🏠 Did you mean personal data?
       </Text>
     </Link>
   </Box>
