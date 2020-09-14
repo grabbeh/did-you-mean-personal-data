@@ -2,6 +2,8 @@
 
 Remind colleagues of the importance of the difference between PII and personal data by delegating to a slackbot.
 
+Built with a Slack Bolt, including state and installation stores for OAUTH purposes.
+
 # Development
 
 To configure for development use, you'll need to:
@@ -24,3 +26,7 @@ AWS_SECRET_ACCESS_KEY=''```
 You'll also need to set up an account to allow tunnelling of your localhost to a publicly available URL. Ngrok is a popular choice!
 
 DynamoDB is used to store installations and state to verify OAUTH requests. No other data is stored. Is it personal data though? Maybeeee.
+
+# Licence/License
+
+MIT
