@@ -22,3 +22,5 @@ AWS_SECRET_ACCESS_KEY=''```
 ````
 
 You'll also need to set up an account to allow tunnelling of your localhost to a publicly available URL. Ngrok is a popular choice!
+
+DynamoDB is used to store installations and state to verify OAUTH requests. No other data is stored. Is it personal data though? Maybeeee.
